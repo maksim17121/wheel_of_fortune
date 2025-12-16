@@ -21,7 +21,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone <ссылка-на-репозиторий>
+git clone https://github.com/maksim17121/wheel_of_fortune.git
 cd wheel-of-fortune-game
 ```
 
@@ -177,3 +177,4 @@ pyinstaller --onefile --console wheel_of_fortune/__main__.py --name WheelOfFortu
 ---
 
 **Примечание**: Для корректной работы игры убедитесь, что файл `words.txt` содержит хотя бы одно слово и находится в папке `data/`.
+
